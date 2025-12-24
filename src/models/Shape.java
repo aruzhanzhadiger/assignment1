@@ -16,8 +16,6 @@ public class Shape {
         for (int i = 0; i < points.size() - 1; i ++) {
             sum += points.get(i).distance(points.get(i + 1));
         }
-
-        sum += points.get(points.size() - 1).distance(points.get(0));
         return sum;
     }
 
